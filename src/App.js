@@ -5,9 +5,10 @@ import { Content, Footer, Header } from './func-components';
 import Calendar from './class-components';
 import Button from './class-components';
 import {Calculator2} from './Calculator';
+import EventData2 from './even-data';
  
 function App() {
-  return <Calculator2/>
+  return <EventData2/>
 }
  
 export default App; 
