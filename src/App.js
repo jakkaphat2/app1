@@ -1,14 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import { Content, Footer, Header } from './func-components';
+import Calendar from './class-components';
+ 
 function App() {
-  const divStyle = {
-    color: 'red',
-    backgroundColor: 'powderblue',
-    fontSize: 'larger',
-    padding:'3px',
-  }
-  return <div style={{color: 'blue'}}>Hello React</div>
-}
+return (
+  <>
+  <Header/>
+    <p>
+        <center>
+          <Calendar />
+        </center>
+  </p>
+  <Content/>
+  <Footer/>
 
+  </>
+  
+)
+ 
+}
+ 
 export default App;
