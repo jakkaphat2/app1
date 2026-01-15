@@ -6,9 +6,10 @@ import Calendar from './class-components';
 import Button from './class-components';
 import {Calculator2} from './Calculator';
 import EventData2 from './even-data';
- 
+import RefsArray from './refs-array'
+
 function App() {
-  return <EventData2/>
+  return <RefsArray/>
 }
  
 export default App; 
