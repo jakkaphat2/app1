@@ -12,7 +12,7 @@ export default function MessageBox() {
   }
 
   const onClickZoomIn = () => {
-    let newSize = size + 200
+    let newSize = size + 1
     setSize(newSize)
   }
 
